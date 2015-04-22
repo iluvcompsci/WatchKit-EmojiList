@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		706B4A8F1A2F637300C426CF /* EmojiRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B4A8E1A2F637300C426CF /* EmojiRow.swift */; };
+		7078967D1A2E4B9500CA31DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7078967C1A2E4B9500CA31DF /* AppDelegate.swift */; };
+		707896801A2E4B9500CA31DF /* EmojiList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7078967E1A2E4B9500CA31DF /* EmojiList.xcdatamodeld */; };
+		707896821A2E4B9500CA31DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707896811A2E4B9500CA31DF /* ViewController.swift */; };
+		707896851A2E4B9500CA31DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707896831A2E4B9500CA31DF /* Main.storyboard */; };
+		707896871A2E4B9500CA31DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707896861A2E4B9500CA31DF /* Images.xcassets */; };
+		7078968A1A2E4B9500CA31DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 707896881A2E4B9500CA31DF /* LaunchScreen.xib */; };
+		707896961A2E4B9500CA31DF /* EmojiListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707896951A2E4B9500CA31DF /* EmojiListTests.swift */; };
+		707896A61A2E4BBE00CA31DF /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707896A51A2E4BBE00CA31DF /* WatchKit.framework */; };
+		707896AC1A2E4BBE00CA31DF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707896AB1A2E4BBE00CA31DF /* InterfaceController.swift */; };
+		707896AE1A2E4BBE00CA31DF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707896AD1A2E4BBE00CA31DF /* NotificationController.swift */; };
+		707896B01A2E4BBE00CA31DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707896AF1A2E4BBE00CA31DF /* Images.xcassets */; };
+		707896B41A2E4BBE00CA31DF /* EmojiList Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 707896B31A2E4BBE00CA31DF /* EmojiList Watch App.app */; };
+		707896BB1A2E4BBE00CA31DF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707896BA1A2E4BBE00CA31DF /* Interface.storyboard */; };
+		707896BD1A2E4BBE00CA31DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707896BC1A2E4BBE00CA31DF /* Images.xcassets */; };
+		707896C01A2E4BBE00CA31DF /* EmojiList WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 707896A31A2E4BBE00CA31DF /* EmojiList WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		707896901A2E4B9500CA31DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7078966F1A2E4B9500CA31DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707896761A2E4B9500CA31DF;
+			remoteInfo = EmojiList;
+		};
+		707896B51A2E4BBE00CA31DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7078966F1A2E4B9500CA31DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707896B21A2E4BBE00CA31DF;
+			remoteInfo = "EmojiList Watch App";
+		};
+		707896BE1A2E4BBE00CA31DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7078966F1A2E4B9500CA31DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707896A21A2E4BBE00CA31DF;
+			remoteInfo = "EmojiList WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		707896C71A2E4BBE00CA31DF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				707896C01A2E4BBE00CA31DF /* EmojiList WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		706B4A8E1A2F637300C426CF /* EmojiRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiRow.swift; sourceTree = "<group>"; };
+		707896771A2E4B9500CA31DF /* EmojiList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7078967B1A2E4B9500CA31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7078967C1A2E4B9500CA31DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7078967F1A2E4B9500CA31DF /* EmojiList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmojiList.xcdatamodel; sourceTree = "<group>"; };
+		707896811A2E4B9500CA31DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		707896841A2E4B9500CA31DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		707896861A2E4B9500CA31DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		707896891A2E4B9500CA31DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7078968F1A2E4B9500CA31DF /* EmojiListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707896941A2E4B9500CA31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707896951A2E4B9500CA31DF /* EmojiListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiListTests.swift; sourceTree = "<group>"; };
+		707896A31A2E4BBE00CA31DF /* EmojiList WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EmojiList WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		707896A51A2E4BBE00CA31DF /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		707896A91A2E4BBE00CA31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707896AA1A2E4BBE00CA31DF /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		707896AB1A2E4BBE00CA31DF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		707896AD1A2E4BBE00CA31DF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		707896AF1A2E4BBE00CA31DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		707896B31A2E4BBE00CA31DF /* EmojiList Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EmojiList Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		707896B91A2E4BBE00CA31DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707896BA1A2E4BBE00CA31DF /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		707896BC1A2E4BBE00CA31DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		707896741A2E4B9500CA31DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7078968C1A2E4B9500CA31DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707896A01A2E4BBE00CA31DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707896A61A2E4BBE00CA31DF /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7078966E1A2E4B9500CA31DF = {
+			isa = PBXGroup;
+			children = (
+				707896791A2E4B9500CA31DF /* EmojiList */,
+				707896921A2E4B9500CA31DF /* EmojiListTests */,
+				707896A71A2E4BBE00CA31DF /* EmojiList WatchKit Extension */,
+				707896B71A2E4BBE00CA31DF /* EmojiList Watch App */,
+				707896A41A2E4BBE00CA31DF /* Frameworks */,
+				707896781A2E4B9500CA31DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		707896781A2E4B9500CA31DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				707896771A2E4B9500CA31DF /* EmojiList.app */,
+				7078968F1A2E4B9500CA31DF /* EmojiListTests.xctest */,
+				707896A31A2E4BBE00CA31DF /* EmojiList WatchKit Extension.appex */,
+				707896B31A2E4BBE00CA31DF /* EmojiList Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		707896791A2E4B9500CA31DF /* EmojiList */ = {
+			isa = PBXGroup;
+			children = (
+				7078967C1A2E4B9500CA31DF /* AppDelegate.swift */,
+				707896811A2E4B9500CA31DF /* ViewController.swift */,
+				707896831A2E4B9500CA31DF /* Main.storyboard */,
+				707896861A2E4B9500CA31DF /* Images.xcassets */,
+				707896881A2E4B9500CA31DF /* LaunchScreen.xib */,
+				7078967E1A2E4B9500CA31DF /* EmojiList.xcdatamodeld */,
+				7078967A1A2E4B9500CA31DF /* Supporting Files */,
+			);
+			path = EmojiList;
+			sourceTree = "<group>";
+		};
+		7078967A1A2E4B9500CA31DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7078967B1A2E4B9500CA31DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		707896921A2E4B9500CA31DF /* EmojiListTests */ = {
+			isa = PBXGroup;
+			children = (
+				707896951A2E4B9500CA31DF /* EmojiListTests.swift */,
+				707896931A2E4B9500CA31DF /* Supporting Files */,
+			);
+			path = EmojiListTests;
+			sourceTree = "<group>";
+		};
+		707896931A2E4B9500CA31DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				707896941A2E4B9500CA31DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		707896A41A2E4BBE00CA31DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				707896A51A2E4BBE00CA31DF /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		707896A71A2E4BBE00CA31DF /* EmojiList WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				707896AB1A2E4BBE00CA31DF /* InterfaceController.swift */,
+				707896AD1A2E4BBE00CA31DF /* NotificationController.swift */,
+				707896AF1A2E4BBE00CA31DF /* Images.xcassets */,
+				707896A81A2E4BBE00CA31DF /* Supporting Files */,
+				706B4A8E1A2F637300C426CF /* EmojiRow.swift */,
+			);
+			path = "EmojiList WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		707896A81A2E4BBE00CA31DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				707896A91A2E4BBE00CA31DF /* Info.plist */,
+				707896AA1A2E4BBE00CA31DF /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		707896B71A2E4BBE00CA31DF /* EmojiList Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				707896BA1A2E4BBE00CA31DF /* Interface.storyboard */,
+				707896BC1A2E4BBE00CA31DF /* Images.xcassets */,
+				707896B81A2E4BBE00CA31DF /* Supporting Files */,
+			);
+			path = "EmojiList Watch App";
+			sourceTree = "<group>";
+		};
+		707896B81A2E4BBE00CA31DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				707896B91A2E4BBE00CA31DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		707896761A2E4B9500CA31DF /* EmojiList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707896991A2E4B9500CA31DF /* Build configuration list for PBXNativeTarget "EmojiList" */;
+			buildPhases = (
+				707896731A2E4B9500CA31DF /* Sources */,
+				707896741A2E4B9500CA31DF /* Frameworks */,
+				707896751A2E4B9500CA31DF /* Resources */,
+				707896C71A2E4BBE00CA31DF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707896BF1A2E4BBE00CA31DF /* PBXTargetDependency */,
+			);
+			name = EmojiList;
+			productName = EmojiList;
+			productReference = 707896771A2E4B9500CA31DF /* EmojiList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7078968E1A2E4B9500CA31DF /* EmojiListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7078969C1A2E4B9500CA31DF /* Build configuration list for PBXNativeTarget "EmojiListTests" */;
+			buildPhases = (
+				7078968B1A2E4B9500CA31DF /* Sources */,
+				7078968C1A2E4B9500CA31DF /* Frameworks */,
+				7078968D1A2E4B9500CA31DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707896911A2E4B9500CA31DF /* PBXTargetDependency */,
+			);
+			name = EmojiListTests;
+			productName = EmojiListTests;
+			productReference = 7078968F1A2E4B9500CA31DF /* EmojiListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		707896A21A2E4BBE00CA31DF /* EmojiList WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707896C41A2E4BBE00CA31DF /* Build configuration list for PBXNativeTarget "EmojiList WatchKit Extension" */;
+			buildPhases = (
+				7078969F1A2E4BBE00CA31DF /* Sources */,
+				707896A01A2E4BBE00CA31DF /* Frameworks */,
+				707896A11A2E4BBE00CA31DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707896B61A2E4BBE00CA31DF /* PBXTargetDependency */,
+			);
+			name = "EmojiList WatchKit Extension";
+			productName = "EmojiList WatchKit Extension";
+			productReference = 707896A31A2E4BBE00CA31DF /* EmojiList WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		707896B21A2E4BBE00CA31DF /* EmojiList Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707896C11A2E4BBE00CA31DF /* Build configuration list for PBXNativeTarget "EmojiList Watch App" */;
+			buildPhases = (
+				707896B11A2E4BBE00CA31DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EmojiList Watch App";
+			productName = "EmojiList Watch App";
+			productReference = 707896B31A2E4BBE00CA31DF /* EmojiList Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7078966F1A2E4B9500CA31DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = edu.illinois;
+				TargetAttributes = {
+					707896761A2E4B9500CA31DF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7078968E1A2E4B9500CA31DF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 707896761A2E4B9500CA31DF;
+					};
+					707896A21A2E4BBE00CA31DF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					707896B21A2E4BBE00CA31DF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 707896721A2E4B9500CA31DF /* Build configuration list for PBXProject "EmojiList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7078966E1A2E4B9500CA31DF;
+			productRefGroup = 707896781A2E4B9500CA31DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				707896761A2E4B9500CA31DF /* EmojiList */,
+				7078968E1A2E4B9500CA31DF /* EmojiListTests */,
+				707896A21A2E4BBE00CA31DF /* EmojiList WatchKit Extension */,
+				707896B21A2E4BBE00CA31DF /* EmojiList Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		707896751A2E4B9500CA31DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707896851A2E4B9500CA31DF /* Main.storyboard in Resources */,
+				7078968A1A2E4B9500CA31DF /* LaunchScreen.xib in Resources */,
+				707896871A2E4B9500CA31DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7078968D1A2E4B9500CA31DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707896A11A2E4BBE00CA31DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707896B41A2E4BBE00CA31DF /* EmojiList Watch App.app in Resources */,
+				707896B01A2E4BBE00CA31DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707896B11A2E4BBE00CA31DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707896BB1A2E4BBE00CA31DF /* Interface.storyboard in Resources */,
+				707896BD1A2E4BBE00CA31DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		707896731A2E4B9500CA31DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707896821A2E4B9500CA31DF /* ViewController.swift in Sources */,
+				707896801A2E4B9500CA31DF /* EmojiList.xcdatamodeld in Sources */,
+				7078967D1A2E4B9500CA31DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7078968B1A2E4B9500CA31DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707896961A2E4B9500CA31DF /* EmojiListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7078969F1A2E4BBE00CA31DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707896AE1A2E4BBE00CA31DF /* NotificationController.swift in Sources */,
+				707896AC1A2E4BBE00CA31DF /* InterfaceController.swift in Sources */,
+				706B4A8F1A2F637300C426CF /* EmojiRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		707896911A2E4B9500CA31DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707896761A2E4B9500CA31DF /* EmojiList */;
+			targetProxy = 707896901A2E4B9500CA31DF /* PBXContainerItemProxy */;
+		};
+		707896B61A2E4BBE00CA31DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707896B21A2E4BBE00CA31DF /* EmojiList Watch App */;
+			targetProxy = 707896B51A2E4BBE00CA31DF /* PBXContainerItemProxy */;
+		};
+		707896BF1A2E4BBE00CA31DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707896A21A2E4BBE00CA31DF /* EmojiList WatchKit Extension */;
+			targetProxy = 707896BE1A2E4BBE00CA31DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		707896831A2E4B9500CA31DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707896841A2E4B9500CA31DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		707896881A2E4B9500CA31DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707896891A2E4B9500CA31DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		707896971A2E4B9500CA31DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		707896981A2E4B9500CA31DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7078969A1A2E4B9500CA31DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = EmojiList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7078969B1A2E4B9500CA31DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = EmojiList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7078969D1A2E4B9500CA31DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EmojiListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiList.app/EmojiList";
+			};
+			name = Debug;
+		};
+		7078969E1A2E4B9500CA31DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EmojiListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiList.app/EmojiList";
+			};
+			name = Release;
+		};
+		707896C21A2E4BBE00CA31DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = EmojiList_WatchKit_Extension;
+				INFOPLIST_FILE = "EmojiList Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		707896C31A2E4BBE00CA31DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = EmojiList_WatchKit_Extension;
+				INFOPLIST_FILE = "EmojiList Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		707896C51A2E4BBE00CA31DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EmojiList WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		707896C61A2E4BBE00CA31DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "EmojiList WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		707896721A2E4B9500CA31DF /* Build configuration list for PBXProject "EmojiList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707896971A2E4B9500CA31DF /* Debug */,
+				707896981A2E4B9500CA31DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707896991A2E4B9500CA31DF /* Build configuration list for PBXNativeTarget "EmojiList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7078969A1A2E4B9500CA31DF /* Debug */,
+				7078969B1A2E4B9500CA31DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7078969C1A2E4B9500CA31DF /* Build configuration list for PBXNativeTarget "EmojiListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7078969D1A2E4B9500CA31DF /* Debug */,
+				7078969E1A2E4B9500CA31DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707896C11A2E4BBE00CA31DF /* Build configuration list for PBXNativeTarget "EmojiList Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707896C21A2E4BBE00CA31DF /* Debug */,
+				707896C31A2E4BBE00CA31DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707896C41A2E4BBE00CA31DF /* Build configuration list for PBXNativeTarget "EmojiList WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707896C51A2E4BBE00CA31DF /* Debug */,
+				707896C61A2E4BBE00CA31DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7078967E1A2E4B9500CA31DF /* EmojiList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7078967F1A2E4B9500CA31DF /* EmojiList.xcdatamodel */,
+			);
+			currentVersion = 7078967F1A2E4B9500CA31DF /* EmojiList.xcdatamodel */;
+			path = EmojiList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7078966F1A2E4B9500CA31DF /* Project object */;
+}

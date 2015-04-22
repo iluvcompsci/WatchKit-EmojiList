@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>EmojiList Watch App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>EmojiList.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>707896761A2E4B9500CA31DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7078968E1A2E4B9500CA31DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>707896A21A2E4BBE00CA31DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>707896B21A2E4BBE00CA31DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

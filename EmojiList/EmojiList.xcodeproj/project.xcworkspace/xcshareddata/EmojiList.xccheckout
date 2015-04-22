@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC470490-EAF7-4451-9D93-9C2B4E8DF922</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EmojiList</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C5C2169B355D3BC1DB63BE39545C349DE298A85B</key>
+		<string>https://github.com/jloloew/Olive.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EmojiList/EmojiList.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C5C2169B355D3BC1DB63BE39545C349DE298A85B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jloloew/Olive.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C5C2169B355D3BC1DB63BE39545C349DE298A85B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C5C2169B355D3BC1DB63BE39545C349DE298A85B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Olive</string>
+		</dict>
+	</array>
+</dict>
+</plist>
